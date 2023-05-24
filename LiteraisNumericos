@@ -1,0 +1,53 @@
+<!DOCTYPE html!>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1"/>
+        Aprendendo PHP com o Plain HTML 7!!!
+        <title>Aprendendo PHP com Plain HTML 7!!!!</title>
+        <style type="text/css">
+            h1{
+                font: bold 14px Verdana;
+                background-color: #ddeeff;
+                padding: 5px;
+            }
+            #main{
+                border: 1px solid #aaaaaa;
+                padding: 10px;
+            }
+
+        </style>
+    </head>
+    <body style="margin: 10px">
+        <h1>Literais Numericos</h1>
+        <div id="main">
+<p><?php
+    echo "<pre>";
+
+    echo "Numero Decimal<br>";
+    $a = 1234;
+    echo "Valor: ".$a."<br>";
+
+    echo "Numero Negativo<br>";
+    $b = -123;
+    echo "Valor: ".$b."<br>";
+
+    echo "Numero Octal(Equivalente a 83 em decimal)<br>";
+    $c = 0123;
+    echo "Valor: ".$c."<br>";
+
+    echo "Numero Hexadecimal(equivalente a 26 em decimal)<br>";
+    $d = 0x1A;
+    echo "Valor: ".$d."<br>";
+
+    echo "Ponto Flutuante<br>";
+    $e = 1.234;
+    echo "Valor: ".$e."<br>";
+
+    echo "Notação Científica<br>";
+    $f = 4e23;
+    echo "Valor: ".$f."<br>";
+
+?></p>
+        </div>
+    </body>
+</html>
