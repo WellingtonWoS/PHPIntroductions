@@ -1,0 +1,46 @@
+<!DOCTYPE html!>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1"/>
+        Aprendendo PHP com o Plain HTML 7!!!
+        <title>Aprendendo PHP com Plain HTML 7!!!!</title>
+        <style type="text/css">
+            h1{
+                font: bold 14px Verdana;
+                background-color: #ddeeff;
+                padding: 5px;
+            }
+            #main{
+                border: 1px solid #aaaaaa;
+                padding: 10px;
+            }
+
+        </style>
+    </head>
+    <body style="margin: 10px">
+        <h1>Operadores Aritméticos</h1>
+        <div id="main">
+<p><?php
+
+    $b = 2;
+    $c = 3;
+    $d = 9;
+    $f = 13;
+
+    echo "<pre>";
+    $a = $c + $b * 15 - $d / 2 + $f % 10;
+    echo "O Resultado de $c + $b * 15 - $d / 2 + $f % 10, é: $a <br>";
+    echo "<pre>";
+
+    echo "<pre>";
+    echo "Conversões em Operadores Aritméticos<br>";
+    $y = '10';
+    //Somando 5 a esta variável string
+    echo "O Resultado é: ";
+    echo $y + 5;
+    echo "<pre>";
+
+?></p>
+        </div>
+    </body>
+</html>
