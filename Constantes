@@ -1,0 +1,39 @@
+<!DOCTYPE html!>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1"/>
+        Aprendendo PHP com o Plain HTML 7!!!
+        <title>Aprendendo PHP com Plain HTML 7!!!!</title>
+        <style type="text/css">
+            h1{
+                font: bold 14px Verdana;
+                background-color: #ddeeff;
+                padding: 5px;
+            }
+            #main{
+                border: 1px solid #aaaaaa;
+                padding: 10px;
+            }
+
+        </style>
+    </head>
+    <body style="margin: 10px">
+        <h1>Literais Alfanuméricos (textos) em PHP - Aspas Invertidas</h1>
+        <div id="main">
+<p><?php
+
+    echo __FILE__."<br>";
+    echo __LINE__."<br>";
+    echo PHP_VERSION."<br>";
+    echo PHP_OS."<br>";
+    echo TRUE."<br>";
+    echo FALSE."<br>";
+    echo E_ERROR."<br>";
+    echo E_WARNING."<br>";
+    echo E_PARSE."<br>";
+    echo E_NOTICE."<br>";
+
+?></p>
+        </div>
+    </body>
+</html>
