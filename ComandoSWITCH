@@ -1,0 +1,62 @@
+<!DOCTYPE html!>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1"/>
+        Aprendendo PHP com o Plain HTML 7!!!
+        <title>Aprendendo PHP com Plain HTML 7!!!!</title>
+        <style type="text/css">
+            h1{
+                font: bold 14px Verdana;
+                background-color: #ddeeff;
+                padding: 5px;
+            }
+            #main{
+                border: 1px solid #aaaaaa;
+                padding: 10px;
+            }
+
+        </style>
+    </head>
+    <body style="margin: 10px">
+        <h1>Comando SWITCH</h1>
+        <div id="main">
+<p><?php
+
+    $mes = 2;
+    $ano = 2010;
+
+    switch($mes){
+
+        case 1:
+            $dia = 31;
+            echo "O mês $mes do ano $ano tem $dia dias";
+            break;
+
+        case 2:
+            if(($ano % 4) == 0){
+
+            $dia = 29;
+            echo " O mês $mes do ano $ano tem $dia dias";
+            break;
+
+            }
+    else {
+
+        $dia = 28;
+        echo " O mês $mes do ano $ano tem $dia dias, é um ano bissexto.";
+        break;
+
+    }
+    case 3: 
+        $dia = 31;
+        echo " O mês $mes do ano $ano tem $dia dias";
+        break;
+    case 4:
+        $dia = 30;
+        echo " O mês $mes do ano $ano tem $dia dias";
+        break;
+    }
+?></p>
+        </div>
+    </body>
+</html>
