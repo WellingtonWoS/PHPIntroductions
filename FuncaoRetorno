@@ -18,7 +18,7 @@
         </style>
     </head>
     <body style="margin: 10px">
-        <h1>Literais Alfanuméricos (textos) em PHP - Expressões</h1>
+        <h1>Funções - Retorno</h1>
         <div id="main">
 <p><?php
 
