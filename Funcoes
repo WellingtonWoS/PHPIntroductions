@@ -1,0 +1,35 @@
+<!DOCTYPE html!>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1"/>
+        Aprendendo PHP com o Plain HTML 7!!!
+        <title>Aprendendo PHP com Plain HTML 7!!!!</title>
+        <style type="text/css">
+            h1{
+                font: bold 14px Verdana;
+                background-color: #ddeeff;
+                padding: 5px;
+            }
+            #main{
+                border: 1px solid #aaaaaa;
+                padding: 10px;
+            }
+
+        </style>
+    </head>
+    <body style="margin: 10px">
+        <h1>Literais Alfanuméricos (textos) em PHP - Expressões</h1>
+        <div id="main">
+<p><?php
+
+    function saida($texto, $vezes = 1){
+        for($indice = 0; $indice < $vezes; $indice++)
+        echo $texto;
+    }
+    saida("Este é um exenplo de função no PHP <br> <br>");
+    saida("Trabalhando com classes e funções no PHP, está linha será impressa três vezes <br>", 3);
+
+?></p>
+        </div>
+    </body>
+</html>
