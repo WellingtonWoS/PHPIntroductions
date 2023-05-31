@@ -1,0 +1,145 @@
+<!DOCTYPE html!>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1"/>
+        Aprendendo PHP com o Plain HTML 7!!!
+        <title>Aprendendo PHP com Plain HTML 7!!!!</title>
+        <style type="text/css">
+            h1{
+                font: bold 14px Verdana;
+                background-color: #ddeeff;
+                padding: 5px;
+            }
+            #main{
+                border: 1px solid #aaaaaa;
+                padding: 10px;
+            }
+
+        </style>
+    </head>
+    <body style="margin: 10px">
+        <h1>Trabalhando com Formulários</h1>
+        <div id="main">
+            <h1>Trabalhando com Formulários Web no PHP</h1>
+            <form name="forml" action="" method="POST" enctype="multipart/form-data" >
+                <table border="0" cellpadding="5" cellspacing="0" width="764">
+                    <tr>
+                        <td width="199" height="15" valign="top" bgcolor="ddeeff"></td>
+                        <td width="323" height="15" valign="top" bgcolor="ddeeff"></td>
+                        <td width="212" height="15" valign="top" bgcolor="ddeeff"></td>
+                    </tr>
+
+                    <tr>
+                    <td width="199" height="30" valign="top" bgcolor="ddeeff">
+                        <small><font face="Arial"><strong>Nome: </strong></font></small>
+                    </td>
+                        <td width="323" height="30" valign="top" bgcolor="ddeeff">
+                        <input type="text" name="nome" size="20">
+                        </td>
+                    <td width="212" height="30" valign="top" bgcolor="ddeeff">
+                        (Tipo Texto)</td>
+                    </tr>
+
+                    <tr>
+                    <td width="199" height="30" valign="top" bgcolor="ddeeff">
+                        <small><font face="Arial"><strong>Senha: </strong></font></small>
+                    </td>
+                    <td width="323" height="30" valign="top" bgcolor="ddeeff">
+                        <input type="password" name="senha" size="20">
+                        </td>
+                         <td width="212" height="30" valign="top" bgcolor="ddeeff">
+                        (Tipo Senha)</td>
+                    </tr>
+
+                    <tr>
+                        <td width="199" height="30" valign="top" bgcolor="ddeeff">
+                         <small><font face="Arial"><strong>Sexo:</strong></font></small>
+                        </td>
+                          <td width="323" height="30" valign="top" bgcolor="ddeeff">
+                            <label>
+                             <input type="radio" value="1" checked name="sexo">
+                              <span>Masculino</span>
+                                </label>
+                            </td>
+                             <td width="323" height="30" valign="top" bgcolor="ddeeff">
+                                <label>
+                                  <input type="radio" value="2" name="sexo">
+                                  <span>Feminino</span>
+                                    </label>
+                                    </td>
+                                <td width="212" height="30" valign="top" bgcolor="ddeeff">
+                                <small>(Tipo Botão de Rádio)</small>
+                                </td>
+                                </tr>
+
+                    <tr>
+                    <td width="199" height="30" valign="top" bgcolor="ddeeff">
+                        <small><font face="Arial"><strong>Opções: </strong></font></small>
+                    </td>
+                        <td width="323" height="30" valign="top" bgcolor="ddeeff">
+                        <select name="opções" size="1">
+                            <option value="selecione uma das opções">selecione uma das opções</option>
+                            <option value="opcao 1">Opcao 1</option>
+                            <option value="opcao 2">Opcao 2</option>
+                            <option value="opcao 3">Opcao 3</option>
+                            <option value="opcao 4">Opcao 4</option>
+                        </select>
+                        </td>
+                    <td width="212" height="30" valign="top" bgcolor="ddeeff">
+                        (Tipo Seleção)</td>
+                    </tr>
+
+                    <tr>
+                    <td width="199" height="30" valign="top" bgcolor="ddeeff">
+                        <small><font face="Arial"><strong>Deseja receber informações: </strong></font></small>
+                    </td>
+                        <td width="323" height="30" valign="top" bgcolor="ddeeff">
+                        <input type="checkbox" name="newsletter" value="ON">Sim
+                        </td>
+                    <td width="212" height="30" valign="top" bgcolor="ddeeff">
+                        (Tipo Caixa de Checagem)</td>
+                    </tr>
+                
+                    <tr>
+                    <td width="199" height="30" valign="top" bgcolor="ddeeff">
+                        <small><font face="Arial"><strong>Seus Comentários: </strong></font></small>
+                    </td>
+                        <td width="323" height="30" valign="top" bgcolor="ddeeff">
+                        <textarea rows="2" name="comentários" cols="31"></textarea>
+                        </td>
+                    <td width="212" height="30" valign="top" bgcolor="ddeeff">
+                        (Tipo Area de Texto)</td>
+                    </tr>
+                    
+                    <tr>
+                    <td width="199" height="30" valign="top" bgcolor="ddeeff">
+                        <small><font face="Arial"><strong>Envie sua imagem: </strong></font></small>
+                    </td>
+                        <td width="323" height="30" valign="top" bgcolor="ddeeff">
+                        <p align="left"><input type="file" name="TI" size="20"></p>
+                         </td>
+                    <td width="212" height="30" valign="top" bgcolor="ddeeff">
+                        (Tipo Arquivo)</td>
+                    </tr>
+            
+                    <tr>
+                        <td colspan="3" height="87" bgcolor="ddeeff">
+                         <div align="center">
+                         <input type="submit" value="Enviar" name="B1">
+                        <small>(Botão Enviar)</small>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="reset" value="Limpar" name="B2">
+                            <small>(Botão Limpar)</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="bt_ok.jpg" alt="Botão OK" width="31" height="35">
+                        <small>(Imagem)</small>
+        </div>
+    </td>
+</tr>
+
+
+                </table>
+            </form>
+<p><?php
+?></p>
+        </div>
+    </body>
+</html>
